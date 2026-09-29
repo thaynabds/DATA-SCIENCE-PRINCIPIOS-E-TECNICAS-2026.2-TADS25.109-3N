@@ -1,0 +1,17 @@
+﻿indicador;valor
+capacidade_total_h;20.0
+reserva_verificacao_h;4.0
+capacidade_implementacao_h;16.0
+itens_nucleo;21.0
+horas_nucleo;26.0
+itens_pacote;10.0
+horas_pacote;16.0
+itens_nucleo_no_pacote;10.0
+horas_nucleo_no_pacote;16.0
+mediana_razao_nucleo;4.0
+mediana_razao_personalizacao;1.333
+media_impacto_nucleo;4.476190476190476
+media_impacto_personalizacao;1.8181818181818181
+horas_personalizacao;18.5
+itens_personalizacao;11.0
+impacto_total_pacote;46.0

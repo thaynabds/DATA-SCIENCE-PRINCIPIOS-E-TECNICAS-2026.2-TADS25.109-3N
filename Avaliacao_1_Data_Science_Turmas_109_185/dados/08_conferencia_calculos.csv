@@ -1,0 +1,9 @@
+﻿conferencia;valor;situacao
+Horas do pacote MVP: pandas x leitura direta do CSV;16.00 x 16.00;igual
+Horas do pacote <= capacidade de implementação;16.00 <= 16.00;ok
+Soma das horas do núcleo (N01 a N21);26.00;-
+Impacto do pacote x máximo possível (programação dinâmica);46 x 72;pacote atinge 63.9% do máximo
+Regra alternativa (só razão impacto/hora): bloqueadores de fluxo que ficariam de fora;N04, N05, N12, N14;regra descartada
+Regra alternativa: itens no pacote e horas;16 itens, 15.50 h;-
+Itens do pacote (regra adotada);N21, N17, N03, N07, N13, N18, N04, N05, N12, N14;-
+Custo financeiro total da base;R$ 0,00;-

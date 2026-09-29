@@ -1,0 +1,40 @@
+﻿id;recurso;horas_estimadas;impacto;decisao
+N21;Símbolo de acessibilidade em destaque e página de acessibilidade;1,5;4,0;Fazer no MVP
+N17;Sem reentrada desnecessária de dados e com autopreenchimento (autocomplete);1,0;5,0;Fazer no MVP
+N03;"Texto alternativo em imagens informativas e nome acessível em ícones-botão; imagens decorativas com alt vazio";1,0;4,0;Fazer no MVP
+N07;Informação não transmitida apenas por cor (status do agendamento, links sublinhados);1,0;4,0;Fazer no MVP
+N13;Seletor de data e horário com controles nativos (input de data, select ou radio);1,5;5,0;Fazer no MVP
+N18;Aviso e possibilidade de estender o tempo de sessão;1,5;5,0;Fazer no MVP
+N04;Rótulos associados aos campos e instruções nos formulários (login, cadastro, agendamento);2,0;5,0;Fazer no MVP
+N05;Identificação e sugestão de correção de erros em formulários;2,0;5,0;Fazer no MVP
+N12;Operação por teclado nos fluxos principais com controles nativos, ordem lógica e sem armadilha de foco;2,5;5,0;Fazer no MVP
+N14;"Nome, função e valor em componentes; mensagens de status anunciadas (confirmação, erro)";2,0;4,0;Fazer no MVP
+N16;Autenticação sem teste cognitivo: permitir colar senha e gerenciador de senhas, sem CAPTCHA de enigma;0,5;5,0;Adiar (2ª entrega)
+N02;Título de cada página e idioma pt-BR declarado;0,5;4,0;Adiar (2ª entrega)
+N09;Espaçamento de texto ajustável sem perda de conteúdo;0,5;4,0;Adiar (2ª entrega)
+N11;Foco não obscurecido por elementos fixos (cabeçalho, rodapé);0,5;4,0;Adiar (2ª entrega)
+N19;Respeitar preferência de movimento reduzido e evitar animação automática longa;0,5;4,0;Adiar (2ª entrega)
+N20;Orientação da tela livre (manifest do PWA sem travar a orientação);0,5;3,0;Adiar (2ª entrega)
+N10;Indicador de foco de teclado visível;1,0;5,0;Adiar (2ª entrega)
+N15;Alvos de toque com no mínimo 24 por 24 px;1,0;5,0;Adiar (2ª entrega)
+N06;Contraste mínimo de texto (4,5:1) e de componentes de interface (3:1);1,5;5,0;Adiar (2ª entrega)
+N08;Zoom de texto até 200% e reflow em 320 px de largura;1,5;5,0;Adiar (2ª entrega)
+N01;Estrutura semântica: landmarks (header, nav, main, footer) e hierarquia de títulos;2,0;4,0;Adiar (2ª entrega)
+P04;Controle de altura da linha;1,0;2,0;Backlog (depois do núcleo)
+P05;Modo de destaque de links;1,0;2,0;Backlog (depois do núcleo)
+P02;Botões para aumentar e reduzir o tamanho da fonte;1,5;2,0;Backlog (depois do núcleo)
+P03;Controle de espaçamento de texto;1,5;2,0;Backlog (depois do núcleo)
+P06;Botão para parar animações;1,5;2,0;Backlog (depois do núcleo)
+P10;Controle de saturação de cores;1,5;2,0;Backlog (depois do núcleo)
+P08;Cursor aumentado e destaque de cursor;2,0;2,0;Backlog (depois do núcleo)
+X01;Contraste reforçado de 7:1;2,0;2,0;Backlog (depois do núcleo)
+P11;Widget VLibras (tradução do texto para Libras);1,0;1,0;Backlog (depois do núcleo)
+P01;Tema de alto contraste selecionável (tipos de contraste);2,5;2,0;Backlog (depois do núcleo)
+P09;Guia de leitura (régua de leitura);3,0;2,0;Backlog (depois do núcleo)
+X02;Linguagem simples e nível de leitura adequado;3,0;2,0;Backlog (depois do núcleo)
+P07;Ocultar imagens e gráficos decorativos;2,0;1,0;Backlog (depois do núcleo)
+G01;Tabela de dados como alternativa aos gráficos;3,0;4,0;Condicional (só se houver gráficos)
+G02;Descrição textual e ARIA para gráficos;2,5;3,0;Condicional (só se houver gráficos)
+G03;Paleta segura para daltonismo e padrões ou texturas além da cor;3,0;3,0;Condicional (só se houver gráficos)
+G04;Navegação por teclado em filtros e gráficos interativos;8,0;4,0;Condicional (só se houver gráficos)
+G05;Tooltip acessível por foco, teclado e leitor de tela;3,5;4,0;Condicional (só se houver gráficos)

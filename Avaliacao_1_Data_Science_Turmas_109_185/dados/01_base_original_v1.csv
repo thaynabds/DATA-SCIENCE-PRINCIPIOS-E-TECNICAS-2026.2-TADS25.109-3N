@@ -1,0 +1,40 @@
+﻿id;recurso;referencia;nivel;pilar;grupos;fluxo_critico;horas_estimadas;aplicavel_mvp;observacao
+N01;Estrutura semântica: landmarks (header, nav, main, footer) e hierarquia de títulos;WCAG 2.2: 1.3.1 (A), 2.4.1 (A), 2.4.6 (AA);A;Perceptível;visual,cognitiva;não;2,0;Sim;Base para leitores de tela. Custo menor se os componentes já nascem semânticos.
+N02;Título de cada página e idioma pt-BR declarado;WCAG 2.2: 2.4.2 (A), 3.1.1 (A);A;Operável;visual,cognitiva;não;0,5;Sim;Ajuste em template único.
+N03;"Texto alternativo em imagens informativas e nome acessível em ícones-botão; imagens decorativas com alt vazio";WCAG 2.2: 1.1.1 (A);A;Perceptível;visual;sim;1,0;Sim;Ícones de ação (agendar, cancelar) precisam de nome acessível.
+N04;Rótulos associados aos campos e instruções nos formulários (login, cadastro, agendamento);WCAG 2.2: 1.3.1 (A), 3.3.2 (A), 2.5.3 (A);A;Compreensível;visual,cognitiva,motora;sim;2,0;Sim;Um componente de campo reutilizável reduz o custo.
+N05;Identificação e sugestão de correção de erros em formulários;WCAG 2.2: 3.3.1 (A), 3.3.3 (AA);A;Compreensível;visual,cognitiva;sim;2,0;Sim;Erro em texto, associado ao campo, sem depender só de cor.
+N06;Contraste mínimo de texto (4,5:1) e de componentes de interface (3:1);WCAG 2.2: 1.4.3 (AA), 1.4.11 (AA);AA;Perceptível;visual,idosa;sim;1,5;Sim;Definir as cores como variáveis de CSS no início do projeto.
+N07;Informação não transmitida apenas por cor (status do agendamento, links sublinhados);WCAG 2.2: 1.4.1 (A);A;Perceptível;visual;sim;1,0;Sim;Status com texto e ícone, além da cor.
+N08;Zoom de texto até 200% e reflow em 320 px de largura;WCAG 2.2: 1.4.4 (AA), 1.4.10 (AA);AA;Perceptível;visual,idosa;sim;1,5;Sim;Layout responsivo com unidades relativas.
+N09;Espaçamento de texto ajustável sem perda de conteúdo;WCAG 2.2: 1.4.12 (AA);AA;Perceptível;visual,aprendizagem;não;0,5;Sim;Evitar alturas fixas em caixas de texto.
+N10;Indicador de foco de teclado visível;WCAG 2.2: 2.4.7 (AA);AA;Operável;visual,motora;sim;1,0;Sim;Não remover o outline padrão sem substituto.
+N11;Foco não obscurecido por elementos fixos (cabeçalho, rodapé);WCAG 2.2: 2.4.11 (AA);AA;Operável;motora,visual;não;0,5;Sim;Critério novo da WCAG 2.2.
+N12;Operação por teclado nos fluxos principais com controles nativos, ordem lógica e sem armadilha de foco;WCAG 2.2: 2.1.1 (A), 2.1.2 (A), 2.4.3 (A);A;Operável;motora,visual;sim;2,5;Sim;Evitar modais customizados no MVP.
+N13;Seletor de data e horário acessível;WCAG 2.2: 2.1.1 (A), 4.1.2 (A);A;Operável;motora,visual,cognitiva;sim;5,0;Sim;Fluxo central de agendamento.
+N14;"Nome, função e valor em componentes; mensagens de status anunciadas (confirmação, erro)";WCAG 2.2: 4.1.2 (A), 4.1.3 (AA);A;Robusto;visual;sim;2,0;Sim;ARIA mínimo, priorizando elementos HTML nativos.
+N15;Alvos de toque com no mínimo 24 por 24 px;WCAG 2.2: 2.5.8 (AA);AA;Operável;motora,idosa;sim;1,0;Sim;Critério novo da WCAG 2.2, relevante para PWA no celular.
+N16;Autenticação sem teste cognitivo: permitir colar senha e gerenciador de senhas, sem CAPTCHA de enigma;WCAG 2.2: 3.3.8 (AA);AA;Compreensível;cognitiva,motora;sim;0,5;Sim;Campos de login com autocomplete correto.
+N17;Sem reentrada desnecessária de dados e com autopreenchimento (autocomplete);WCAG 2.2: 3.3.7 (A), 1.3.5 (AA);A;Compreensível;cognitiva,motora;sim;1,0;Sim;Reaproveitar dados do cadastro no agendamento.
+N18;Aviso e possibilidade de estender o tempo de sessão;WCAG 2.2: 2.2.1 (A);A;Operável;cognitiva,motora,visual;sim;1,5;Sim;Relevante por causa da expiração de token no login.
+N19;Respeitar preferência de movimento reduzido e evitar animação automática longa;WCAG 2.2: 2.2.2 (A);A;Operável;cognitiva,neurologica;não;0,5;Sim;Media query prefers-reduced-motion.
+N20;Orientação da tela livre (manifest do PWA sem travar a orientação);WCAG 2.2: 1.3.4 (AA);AA;Perceptível;motora;não;0,5;Sim;Específico de PWA.
+P01;Tema de alto contraste selecionável (tipos de contraste);"Sem critério A/AA próprio; apoia 1.4.3 (AA) e 1.4.6 (AAA)";Boa prática;Perceptível;visual,idosa;não;2,5;Sim;Item da lista inicial da equipe.
+P02;Botões para aumentar e reduzir o tamanho da fonte;"Sem critério próprio; o zoom do navegador atende 1.4.4 (AA)";Boa prática;Perceptível;visual,idosa;não;1,5;Sim;Item da lista inicial da equipe.
+P03;Controle de espaçamento de texto;"Sem critério próprio; apoia 1.4.12 (AA)";Boa prática;Perceptível;visual,aprendizagem;não;1,5;Sim;Item da lista inicial da equipe.
+P04;Controle de altura da linha;"Sem critério próprio; apoia 1.4.12 (AA)";Boa prática;Perceptível;visual,aprendizagem;não;1,0;Sim;Item da lista inicial da equipe.
+P05;Modo de destaque de links;"Sem critério próprio; apoia 1.4.1 (A)";Boa prática;Perceptível;visual,cognitiva;não;1,0;Sim;Item da lista inicial da equipe.
+P06;Botão para parar animações;"Sem critério próprio; apoia 2.2.2 (A)";Boa prática;Operável;cognitiva,neurologica;não;1,5;Sim;Item da lista inicial da equipe.
+P07;Ocultar imagens e gráficos decorativos;"Sem critério próprio; apoia 1.1.1 (A)";Boa prática;Perceptível;cognitiva;não;2,0;Sim;Item da lista inicial da equipe.
+P08;Cursor aumentado e destaque de cursor;"Sem critério WCAG próprio; recurso comum do sistema operacional";Boa prática;Operável;motora,visual;não;2,0;Sim;Item da lista inicial da equipe.
+P09;Guia de leitura (régua de leitura);Sem critério WCAG próprio;Boa prática;Perceptível;aprendizagem,cognitiva;não;3,0;Sim;Item da lista inicial da equipe.
+P10;Controle de saturação de cores;Sem critério WCAG próprio;Boa prática;Perceptível;visual,neurologica;não;1,5;Sim;Item da lista inicial da equipe.
+P11;Widget VLibras (tradução do texto para Libras);"Sem critério A/AA para texto; Libras em mídia gravada é 1.2.6 (AAA)";Boa prática;Perceptível;auditiva;não;1,0;Sim;Verificar compatibilidade com PWA e licença em vlibras.gov.br antes de adotar.
+X01;Contraste reforçado de 7:1;WCAG 2.2: 1.4.6 (AAA);AAA;Perceptível;visual,idosa;não;2,0;Sim;Nível AAA, acima do exigido pela conformidade regular da NBR 17225.
+X02;Linguagem simples e nível de leitura adequado;WCAG 2.2: 3.1.5 (AAA);AAA;Compreensível;cognitiva,aprendizagem;não;3,0;Sim;Nível AAA.
+G01;Tabela de dados como alternativa aos gráficos;WCAG 2.2: 1.1.1 (A), 1.3.1 (A);A;Perceptível;visual,cognitiva;não;3,0;Sim;Só se houver gráficos no produto.
+G02;Descrição textual e ARIA para gráficos;WCAG 2.2: 1.1.1 (A);A;Perceptível;visual;não;2,5;Sim;Só se houver gráficos no produto.
+G03;Paleta segura para daltonismo e padrões ou texturas além da cor;WCAG 2.2: 1.4.1 (A), 1.4.11 (AA);A;Perceptível;visual;não;3,0;Sim;Só se houver gráficos no produto.
+G04;Navegação por teclado em filtros e gráficos interativos;WCAG 2.2: 2.1.1 (A);A;Operável;motora,visual;não;8,0;Sim;Só se houver gráficos no produto.
+G05;Tooltip acessível por foco, teclado e leitor de tela;WCAG 2.2: 1.4.13 (AA);AA;Perceptível;visual,motora;não;3,5;Sim;Só se houver gráficos no produto.
+V01;Verificação: Lighthouse, axe DevTools, WAVE, teclado e NVDA nos fluxos principais;Checklist de conformidade (a NBR 17225 traz checklist de aferição);Verificação;Robusto;visual,auditiva,motora,cognitiva;não;4,0;Sim;Ferramentas gratuitas.

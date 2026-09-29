@@ -1,0 +1,23 @@
+﻿etapa;verificacao_ou_tratamento;resultado
+Verificação da base original (v1);Número de linhas;39
+Verificação da base original (v1);Ids duplicados;0
+Verificação da base original (v1);Células vazias nas colunas obrigatórias;0
+Verificação da base original (v1);Níveis fora do vocabulário;[]
+Verificação da base original (v1);Pilares fora do vocabulário;[]
+Verificação da base original (v1);Grupos fora do vocabulário;[]
+Verificação da base original (v1);Valores de fluxo_critico fora do vocabulário;[]
+Verificação da base original (v1);Horas menores ou iguais a zero;0
+Cobertura legal;Existe item para o símbolo de acessibilidade (LBI art. 63, par. 1)?;NÃO, lacuna encontrada
+Tratamento 1;Acrescentado N21 (símbolo de acessibilidade em destaque);+1 linha, 1,5 h
+Tratamento 2;N13 separado em versão nativa (N13) e customizada (X03);"N13: 5.0 h para 1,5 h; X03: 6,0 h como alternativa (não soma)"
+Tratamento 3;Itens G01 a G05 marcados como Condicional;5 linhas fora da seleção do MVP
+Tratamento 4;V01 tratado como reserva de tempo (não pontua impacto);1 linha
+Tratamento 5;Coluna custo_reais criada com R$ 0,00 (Lighthouse, axe DevTools, WAVE, NVDA e navegador são gratuitos);custo total R$ 0,00
+Verificação da base preparada (v2);Número de linhas;41
+Verificação da base preparada (v2);Ids duplicados;0
+Verificação da base preparada (v2);Células vazias nas colunas obrigatórias;0
+Verificação da base preparada (v2);Níveis fora do vocabulário;[]
+Verificação da base preparada (v2);Pilares fora do vocabulário;[]
+Verificação da base preparada (v2);Grupos fora do vocabulário;[]
+Verificação da base preparada (v2);Valores de fluxo_critico fora do vocabulário;[]
+Verificação da base preparada (v2);Horas menores ou iguais a zero;0

@@ -1,0 +1,35 @@
+﻿ordem;id;camada;horas_estimadas;horas_acumuladas;decisao
+1;N21;T0;1,5;1,5;Fazer no MVP
+2;N17;T1;1,0;2,5;Fazer no MVP
+3;N03;T1;1,0;3,5;Fazer no MVP
+4;N07;T1;1,0;4,5;Fazer no MVP
+5;N13;T1;1,5;6,0;Fazer no MVP
+6;N18;T1;1,5;7,5;Fazer no MVP
+7;N04;T1;2,0;9,5;Fazer no MVP
+8;N05;T1;2,0;11,5;Fazer no MVP
+9;N12;T1;2,5;14,0;Fazer no MVP
+10;N14;T1;2,0;16,0;Fazer no MVP
+11;N16;T2;0,5;16,5;Adiar (2ª entrega)
+12;N02;T2;0,5;17,0;Adiar (2ª entrega)
+13;N09;T2;0,5;17,5;Adiar (2ª entrega)
+14;N11;T2;0,5;18,0;Adiar (2ª entrega)
+15;N19;T2;0,5;18,5;Adiar (2ª entrega)
+16;N20;T2;0,5;19,0;Adiar (2ª entrega)
+17;N10;T2;1,0;20,0;Adiar (2ª entrega)
+18;N15;T2;1,0;21,0;Adiar (2ª entrega)
+19;N06;T2;1,5;22,5;Adiar (2ª entrega)
+20;N08;T2;1,5;24,0;Adiar (2ª entrega)
+21;N01;T2;2,0;26,0;Adiar (2ª entrega)
+22;P04;T2;1,0;27,0;Backlog (depois do núcleo)
+23;P05;T2;1,0;28,0;Backlog (depois do núcleo)
+24;P02;T2;1,5;29,5;Backlog (depois do núcleo)
+25;P03;T2;1,5;31,0;Backlog (depois do núcleo)
+26;P06;T2;1,5;32,5;Backlog (depois do núcleo)
+27;P10;T2;1,5;34,0;Backlog (depois do núcleo)
+28;P08;T2;2,0;36,0;Backlog (depois do núcleo)
+29;X01;T2;2,0;38,0;Backlog (depois do núcleo)
+30;P11;T2;1,0;39,0;Backlog (depois do núcleo)
+31;P01;T2;2,5;41,5;Backlog (depois do núcleo)
+32;P09;T2;3,0;44,5;Backlog (depois do núcleo)
+33;X02;T2;3,0;47,5;Backlog (depois do núcleo)
+34;P07;T2;2,0;49,5;Backlog (depois do núcleo)
