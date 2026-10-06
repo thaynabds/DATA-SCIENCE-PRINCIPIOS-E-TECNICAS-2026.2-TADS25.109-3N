@@ -4,7 +4,7 @@
 
 **Projeto:** Recife Saudável — Saúde na Palma da Mão  
 **Unidade Curricular:** Data Science: Princípios e Técnicas — 2026.2  
-**Alunas:** Thayná Batista da Silva e Poliana Fontes  
+**Alunas:** Thayná Batista da Silva e Polyana Fontes  
 **Instituição:** Faculdade Senac de Pernambuco
 
 A atividade solicita retomar o problema e o dataset já investigados, escolher uma tarefa do Projeto Integrador e propor uma abordagem entre **automação, IA sem ML, ML sem DL ou DL**. Também solicita explicar entrada, funcionamento e saída, pedir uma crítica a uma IA, conferir essa crítica com a aula e registrar o que foi aceito, corrigido ou descartado, além de apresentar dados, teste e decisão.
