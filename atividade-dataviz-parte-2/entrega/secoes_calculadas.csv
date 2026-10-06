@@ -1,0 +1,25 @@
+secao_id;bairro;eleitores_aptos;comparecimento;abstencao;taxa_abstencao_percentual;votos_validos;brancos;nulos;votos_raquel_lima;votos_joao_capim;votos_ivan_pinto;vencedor_secao;raquel_nos_votos_validos_percentual
+SEC021;Várzea;800;496;304;38.0;463;13;20;306;154;3;Raquel Lima;66.09
+SEC022;Várzea;1050;724;326;31.05;667;23;34;413;246;8;Raquel Lima;61.92
+SEC024;Várzea;1880;1316;564;30.0;1209;29;78;845;355;9;Raquel Lima;69.89
+SEC018;Casa Amarela;1970;1399;571;28.98;1280;45;74;973;298;9;Raquel Lima;76.02
+SEC023;Várzea;1580;1138;442;27.97;1036;42;60;704;322;10;Raquel Lima;67.95
+SEC017;Casa Amarela;1650;1204;446;27.03;1114;33;57;873;236;5;Raquel Lima;78.37
+SEC012;Boa Vista;2260;1672;588;26.02;1556;37;79;983;562;11;Raquel Lima;63.17
+SEC011;Boa Vista;2140;1605;535;25.0;1480;59;66;951;521;8;Raquel Lima;64.26
+SEC020;Casa Amarela;1450;1102;348;24.0;1039;24;39;787;247;5;Raquel Lima;75.75
+SEC005;Santo Amaro;810;616;194;23.95;577;17;22;315;255;7;Raquel Lima;54.59
+SEC015;Madalena;1270;978;292;22.99;908;36;34;431;467;10;João Capim;47.47
+SEC019;Casa Amarela;1130;881;249;22.04;796;33;52;608;182;6;Raquel Lima;76.38
+SEC008;Santo Amaro;1840;1435;405;22.01;1327;32;76;722;598;7;Raquel Lima;54.41
+SEC006;Santo Amaro;1120;885;235;20.98;821;28;36;454;361;6;Raquel Lima;55.3
+SEC004;Boa Viagem;1680;1344;336;20.0;1235;30;79;894;336;5;Raquel Lima;72.39
+SEC014;Madalena;890;712;178;20.0;647;23;42;330;312;5;Raquel Lima;51.0
+SEC010;Boa Vista;1720;1393;327;19.01;1299;45;49;828;463;8;Raquel Lima;63.74
+SEC002;Boa Viagem;1420;1164;256;18.03;1072;37;55;757;304;11;Raquel Lima;70.62
+SEC016;Madalena;1520;1246;274;18.03;1168;27;51;570;592;6;João Capim;48.8
+SEC007;Santo Amaro;1480;1228;252;17.03;1125;45;58;597;517;11;Raquel Lima;53.07
+SEC009;Boa Vista;1360;1142;218;16.03;1044;31;67;633;404;7;Raquel Lima;60.63
+SEC003;Boa Viagem;980;833;147;15.0;758;31;44;541;213;4;Raquel Lima;71.37
+SEC013;Madalena;720;619;101;14.03;569;17;33;270;295;4;João Capim;47.45
+SEC001;Boa Viagem;1250;1100;150;12.0;1025;30;45;761;259;5;Raquel Lima;74.24
